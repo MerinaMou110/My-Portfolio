@@ -1,120 +1,781 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#blogs">Blogs</a></li>
-                <li><a href="#contact">Contact</a></li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Merina Rahaman Mou - Fullstack Developer</title>
+    <!--===== Font Awesome =====-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!--===== Main CSS =====-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <style></style>
+  </head>
+  <body>
+    <!--===== Navbar Start =====-->
+    <nav class="navbar fixed top-0 w-full">
+      <div class="container">
+        <div class="row justify-between">
+          <div class="logo">
+            <a href="index.html">Deve<span>loper</span></a>
+          </div>
+          <div class="links">
+            <ul class="menu">
+              <li class="nav-item">
+                <a href="#home" class="nav-link active">Home <span></span></a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About <span></span></a>
+              </li>
+              <li class="nav-item">
+                <a href="#services" class="nav-link">Services <span></span></a>
+              </li>
+              <li class="nav-item">
+                <a href="#education" class="nav-link"
+                  >My Education <span></span
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a href="#portfolio" class="nav-link"
+                  >Projects <span></span
+                ></a>
+              </li>
+              <!-- <li class="nav-item">
+                <a href="#pricing" class="nav-link">Pricing <span></span></a>
+              </li> -->
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact <span></span></a>
+              </li>
             </ul>
-        </nav>
-    </header>
-    <section id="home">
-        <h1>Hi, I'm [Your Name]</h1>
-        <p>Full-Stack Developer</p>
-        <div class="d-block d-sm-flex align-items-center"><a class="btn content-download button-main button-scheme" href="resume.pdf" download="" role="button">Download CV</a>
+          </div>
+          <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--===== Navbar End =====-->
+    <!--===== Home Section Start =====-->
+    <section class="home-section" id="home">
+      <ul class="header-social">
+        <!--===== Header Social =====-->
+        <li>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </li>
+      </ul>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="home-text">
+            <h4>Hello, i'm</h4>
+            <h1>Merina Rahaman Mou</h1>
+            <span>Professional Fullstack Developer</span>
+            <p>
+              I am a skilled fullstack developer with expertise in various
+              programming languages and frameworks. I am passionate about web
+              development and continuously learning new tools and technologies.
+            </p>
+            <a
+              href="Myresume.pdf"
+              download="Merina_Rahaman_Mou_Resume.pdf"
+              class="btn btn-1 btn-download"
+              >Download Resume</a
+            >
+          </div>
+          <div class="home-image">
+            <div class="img-box">
+              <img src="images/file.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-hero-shape"></div>
+      <!--===== Hero Shape =====-->
+    </section>
+    <!--===== Home Section End =====-->
+    <!--===== About Section Start =====-->
+    <!--===== About Section Start =====-->
+    <section class="about-section section-padding" id="about">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="about-image">
+            <div class="img-box">
+              <img src="images/file.png" alt="" />
+              <div class="about-shape"></div>
+            </div>
+          </div>
+          <div class="about-content">
+            <div class="section-title">
+              <h5 class="sub-title">About</h5>
+              <h3 class="main-title">Why You Hire Me?</h3>
+              <ul class="line">
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+            <!--===== Section Title =====-->
+            <p>
+              I am a fullstack developer with extensive knowledge in C, C++,
+              Python, JavaScript, HTML, Tailwind CSS, Bootstrap CSS, DRF,
+              Django, SQLite, PostgreSQL, Git, and React. I also participate in
+              competitive programming and continuously strive to improve my
+              skills.
+            </p>
+            <div class="about-skills">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <h6 class="skill-title">Python</h6>
+                  <div class="skill-percentage">
+                    <p><span class="counter">95</span>%</p>
+                  </div>
+                </div>
+                <div class="skill-bar">
+                  <div class="bar-inner">
+                    <div class="bar progress-line" data-progress="95%"></div>
+                  </div>
+                </div>
+              </div>
+              <!--===== Skill Item =====-->
+              <div class="skill-item">
+                <div class="skill-header">
+                  <h6 class="skill-title">JavaScript</h6>
+                  <div class="skill-percentage">
+                    <p><span class="counter">90</span>%</p>
+                  </div>
+                </div>
+                <div class="skill-bar">
+                  <div class="bar-inner">
+                    <div class="bar progress-line" data-progress="90%"></div>
+                  </div>
+                </div>
+              </div>
+              <!--===== Skill Item =====-->
+              <div class="skill-item">
+                <div class="skill-header">
+                  <h6 class="skill-title">HTML/CSS</h6>
+                  <div class="skill-percentage">
+                    <p><span class="counter">85</span>%</p>
+                  </div>
+                </div>
+                <div class="skill-bar">
+                  <div class="bar-inner">
+                    <div class="bar progress-line" data-progress="85%"></div>
+                  </div>
+                </div>
+              </div>
+              <!--===== Skill Item =====-->
+              <div class="skill-item">
+                <div class="skill-header">
+                  <h6 class="skill-title">Django</h6>
+                  <div class="skill-percentage">
+                    <p><span class="counter">80</span>%</p>
+                  </div>
+                </div>
+                <div class="skill-bar">
+                  <div class="bar-inner">
+                    <div class="bar progress-line" data-progress="80%"></div>
+                  </div>
+                </div>
+              </div>
+              <!--===== Skill Item =====-->
+              <div class="skill-item">
+                <div class="skill-header">
+                  <h6 class="skill-title">React</h6>
+                  <div class="skill-percentage">
+                    <p><span class="counter">75</span>%</p>
+                  </div>
+                </div>
+                <div class="skill-bar">
+                  <div class="bar-inner">
+                    <div class="bar progress-line" data-progress="75%"></div>
+                  </div>
+                </div>
+              </div>
+              <!--===== Skill Item =====-->
+              <div class="skill-item">
+                <div class="skill-header">
+                  <h6 class="skill-title">Git</h6>
+                  <div class="skill-percentage">
+                    <p><span class="counter">70</span>%</p>
+                  </div>
+                </div>
+                <div class="skill-bar">
+                  <div class="bar-inner">
+                    <div class="bar progress-line" data-progress="70%"></div>
+                  </div>
+                </div>
+              </div>
+              <!--===== Skill Item =====-->
+              <div class="skill-item">
+                <div class="skill-header">
+                  <h6 class="skill-title">Data Structures</h6>
+                  <div class="skill-percentage">
+                    <p><span class="counter">80</span>%</p>
+                  </div>
+                </div>
+                <div class="skill-bar">
+                  <div class="bar-inner">
+                    <div class="bar progress-line" data-progress="80%"></div>
+                  </div>
+                </div>
+              </div>
+              <!--===== Skill Item =====-->
+              <div class="skill-item">
+                <div class="skill-header">
+                  <h6 class="skill-title">Algorithms</h6>
+                  <div class="skill-percentage">
+                    <p><span class="counter">75</span>%</p>
+                  </div>
+                </div>
+                <div class="skill-bar">
+                  <div class="bar-inner">
+                    <div class="bar progress-line" data-progress="75%"></div>
+                  </div>
+                </div>
+              </div>
+              <!--===== Skill Item =====-->
+              <div class="skill-item">
+                <div class="skill-header">
+                  <h6 class="skill-title">Databases</h6>
+                  <div class="skill-percentage">
+                    <p><span class="counter">85</span>%</p>
+                  </div>
+                </div>
+                <div class="skill-bar">
+                  <div class="bar-inner">
+                    <div class="bar progress-line" data-progress="85%"></div>
+                  </div>
+                </div>
+              </div>
+              <!--===== Skill Item =====-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--===== About Section End =====-->
+    <!--===== Services Section Start =====-->
+    <section class="service-section section-padding" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="section-title text-align">
+            <h5 class="sub-title">Services</h5>
+            <h3 class="main-title">Services I Provide</h3>
+            <ul class="line">
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <!--===== Section Title =====-->
+        </div>
+        <div class="row">
+          <!--===== Service Item Start =====-->
+          <div class="service-item">
+            <div class="service-item-inner">
+              <div class="icon">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <h3>Web Development</h3>
+              <p>
+                Creating responsive and dynamic websites with clean code and
+                modern technologies.
+              </p>
+            </div>
+          </div>
+          <!--===== Service Item End =====-->
+          <!--===== Service Item Start =====-->
+          <div class="service-item">
+            <div class="service-item-inner">
+              <div class="icon">
+                <i class="fas fa-database"></i>
+              </div>
+              <h3>Backend Development</h3>
+              <p>
+                Building robust backend systems with Python, Django, and various
+                databases like SQLite and PostgreSQL.
+              </p>
+            </div>
+          </div>
+          <!--===== Service Item End =====-->
+          <!--===== Service Item Start =====-->
+          <div class="service-item">
+            <div class="service-item-inner">
+              <div class="icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3>API Development</h3>
+              <p>
+                Designing and implementing RESTful APIs using Django REST
+                Framework (DRF).
+              </p>
+            </div>
+          </div>
+          <!--===== Service Item End =====-->
+          <!--===== Service Item Start =====-->
+          <div class="service-item ">
+            <div class="service-item-inner">
+              <div class="icon">
+                <i class="fas fa-cogs"></i>
+              </div>
+              <h3>DevOps</h3>
+              <p>
+                Managing version control, CI/CD pipelines, and deployment
+                processes using Git and other tools.
+              </p>
+            </div>
+          </div>
+          <!--===== Service Item End =====-->
+        </div>
+     
+    </section>
+    <!--===== Services Section End =====-->
+
+   <!-- Education & Work Section -->
+ <section class="education-work-section section-padding py-16" id="education">
+  <div class="container mx-auto px-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Education Section -->
+     <div class="education-section">
+        <div class="section-title mb-6 flex items-center">
+            <i class="fas fa-graduation-cap icon mr-2"></i>
+            <h5 class="text-2xl font-bold mb-4">Education</h5>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item mb-6">
+            <h6 class="font-bold text-lg">
+                BSC in CSE - North Western University, Khulna
+            </h6>
+            <p class="text-sm text-gray-600">2021-2024</p>
+            <p class="text-sm">Running</p>
+            </div>
+            <div class="timeline-item mb-6">
+            <h6 class="font-bold text-lg">
+                Higher Secondary School Certificate - Govt. Bangabondhu
+                college, Khulna
+            </h6>
+            <p class="text-sm text-gray-600">Passed in 2019</p>
+            <p class="text-sm">
+                Got GPA-5.00 out of 5.00 from Jessore Board
+            </p>
+            </div>
+            <div class="timeline-item">
+            <h6 class="font-bold text-lg">
+                Secondary School Certificate - Sultana Hamid Ali girls
+                school, Khulna
+            </h6>
+            <p class="text-sm text-gray-600">Passed in 2016</p>
+            <p class="text-sm">
+                Got GPA-5.00 out of 5.00 from Jessore Board
+            </p>
+            </div>
+        </div>
+     </div>
+        <!-- Work Section -->
+     <div class="work-section">
+        <div class="section-title mb-6 flex items-center">
+            <i class="fas fa-briefcase icon mr-2"></i>
+            <h5 class="text-2xl font-bold mb-4">Work</h5>
+        </div>
+        <div class="timeline">
+           <div class="timeline-item mb-6">
+            <h6 class="font-bold text-lg">Full-stack Developer</h6>
+            <p class="text-sm text-gray-600">2022 - Present</p>
+            <p class="text-sm">
+                Developed full-stack projects with proficiency in Python
+                backend development using Django and DRF, and frontend
+                development using HTML, CSS, JavaScript, and Tailwind CSS.
+            </p>
+            </div>
+            <div class="timeline-item mb-6">
+            <h6 class="font-bold text-lg">Python Backend Developer</h6>
+            <p class="text-sm text-gray-600">2022 - Present</p>
+            <p class="text-sm">
+                Specialized in backend development with Python, focusing on
+                building robust APIs and web applications using Django and
+                DRF. Worked with databases like SQLite and PostgreSQL.
+            </p>
+            </div>
+            <div class="timeline-item mb-6">
+            <h6 class="font-bold text-lg">Frontend Developer</h6>
+            <p class="text-sm text-gray-600">2022 - Present</p>
+            <p class="text-sm">
+                Designed and implemented user-friendly interfaces using HTML,
+                CSS, JavaScript, and frameworks like React. Emphasized
+                responsive design and performance optimization.
+            </p>
+            </div>
+            <div class="timeline-item">
+            <h6 class="font-bold text-lg">Learning and Development</h6>
+            <p class="text-sm text-gray-600">Ongoing</p>
+            <p class="text-sm">
+                Continuously learning and exploring various languages and
+                frameworks to stay updated with the latest technologies and
+                best practices in software development.
+            </p>
+            </div>
+        </div>
+     </div>
+    </div>
+  </div>
+ </section>
 
 
-        <img src="images/profile.jpg" alt="Profile Picture">
-    </section>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a Python backend developer with knowledge of HTML, CSS, and JavaScript for frontend development. I can create full-stack projects and have a passion for coding and learning new technologies.</p>
-        <p>Educational Description: B.S. in Computer Science from [University Name]</p>
-    </section>
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Django</li>
-            <li>Flask</li>
-            <li>React</li>
-            <li>Git</li>
-            <li>Docker</li>
-        </ul>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>Brief overview of what the project is about</p>
-            <p>Technologies Used: Python, Django, HTML, CSS</p>
-            <a href="https://github.com/yourusername/project1">GitHub Repository</a>
-        </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>Brief overview of what the project is about</p>
-            <p>Technologies Used: JavaScript, React, Node.js</p>
-            <a href="https://github.com/yourusername/project2">GitHub Repository</a>
-        </div>
-    </section>
-    <section id="experience">
-        <h2>Experience</h2>
-        <div class="experience">
-            <h3>Company Name</h3>
-            <p>Backend Developer</p>
-            <p>Start Date - End Date</p>
-            <ul>
-                <li>Responsibility 1</li>
-                <li>Responsibility 2</li>
+    <!--===== Educational Section End =====-->
+
+    <!--===== Portfolio Section Start =====-->
+    <section class="portfolio section-padding" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="section-title text-align">
+            <h5 class="sub-title">portfolio</h5>
+            <h3 class="main-title">our latest work</h3>
+            <ul class="line">
+              <li></li>
+              <li></li>
+              <li></li>
             </ul>
+          </div>
+          <!--===== Section Title =====-->
         </div>
-        <div class="experience">
-            <h3>Company Name</h3>
-            <p>Full-Stack Developer</p>
-            <p>Start Date - End Date</p>
-            <ul>
-                <li>Responsibility 1</li>
-                <li>Responsibility 2</li>
+        <div class="row">
+          <div class="portfolio-filter">
+            <!-- <button type="button" class="active" data-filter="all">All</button>
+            <button type="button" data-filter="web-design">web design</button>
+            <button type="button" data-filter="photography">photography</button>
+            <button type="button" data-filter="wordpress">wordpress</button> -->
+          </div>
+        </div>
+        <div class="row">
+          <!--===== portfolio-item start =====-->
+          <div class="portfolio-item" data-category="wordpress">
+            <div class="portfolio-item-inner">
+              <div class="portfolio-img">
+                <img src="images/portfolio/shopping.png" alt="" />
+              </div>
+              <div class="portfolio-info ">
+                <h4>Electronic Shopping Website</h4>
+                <div class="icon">
+                  <i class="fa fa-search"></i>
+                </div>
+                <a href="https://prismatic-taffy-8af93c.netlify.app/" class="btn-1">Live Demo</a>
+                <a
+                  href="https://github.com/MerinaMou110/Electronic-shopping-website-frontend"
+                  class="btn-2"
+                  >Project Code</a
+                >
+              </div>
+            </div>
+          </div>
+          <!--===== portfolio-item end =====-->
+
+          <!--===== portfolio-item start =====-->
+          <div class="portfolio-item" data-category="wordpress">
+            <div class="portfolio-item-inner">
+              <div class="portfolio-img">
+                <img src="images/portfolio/finance.png" alt="" />
+              </div>
+              <div class="portfolio-info">
+                <h4>Finance Management System</h4>
+                <div class="icon">
+                  <i class="fa fa-search"></i>
+                </div>
+                <a href="https://dreamy-treacle-b89e73.netlify.app/" class="btn-1">Live Demo</a>
+                <a
+                  href="https://github.com/MerinaMou110/Electronic-shopping-website-frontend"
+                  class="btn-2"
+                  >Project Code</a
+                >
+              </div>
+            </div>
+          </div>
+          <!--===== portfolio-item end =====-->
+          <!--===== portfolio-item start =====-->
+          <div class="portfolio-item" data-category="wordpress">
+            <div class="portfolio-item-inner">
+              <div class="portfolio-img">
+                <img src="images/portfolio/flower.png" alt="" />
+              </div>
+              <div class="portfolio-info">
+                <h4>Flower sell website</h4>
+                <div class="icon">
+                  <i class="fa fa-search"></i>
+                </div>
+                <a href="https://darling-toffee-87db0a.netlify.app/" class="btn-1">Live Demo</a>
+                <a
+                  href="https://github.com/MerinaMou110/Happy-Flower-Fronted"
+                  class="btn-2"
+                  >Project Code</a
+                >
+              </div>
+            </div>
+          </div>
+          <!--===== portfolio-item end =====-->
+           <!--===== portfolio-item start =====-->
+           <div class="portfolio-item" data-category="wordpress">
+            <div class="portfolio-item-inner">
+              <div class="portfolio-img">
+                <img src="images/portfolio/book.png" alt="" />
+              </div>
+              <div class="portfolio-info">
+                <h4>Library Management System</h4>
+                <div class="icon">
+                  <i class="fa fa-search"></i>
+                </div>
+                <a href="https://final-assignment-1.onrender.com/" class="btn-1">Live Demo</a>
+                <a
+                  href="https://github.com/MerinaMou110/Final-Assignment"
+                  class="btn-2"
+                  >Project Code</a
+                >
+              </div>
+            </div>
+          </div>
+          <!--===== portfolio-item end =====-->
+     
+    </section>
+    <!--===== Portfolio Section End =====-->
+
+    <!-- ===== Pricing Section Start =====-->
+    <!-- <section class="pricing section-padding" id="pricing">
+          <div class="container">
+            <div class="row">
+                <div class="section-title text-align">
+                    <h5 class="sub-title">pricing</h5>
+                    <h3 class="main-title">pricing plans</h3>
+                    <ul class="line">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div> ===== Section Title =====
+              </div>
+              <div class="row justify-content-center">
+                  <div class="pricing-item">
+                      <div class="pricing-plan">
+                          <div class="pricing-header">
+                              <h3>basic</h3>
+                          </div>
+                          <div class="pricing-price">
+                              <span class="currency">$</span>
+                              <span class="price">99</span>
+                              <span class="period">/monthly</span>
+                          </div>
+                          <div class="pricing-body">
+                              <ul>
+                                  <li><i class="fa fa-check"></i> 5 GB BandWidth </li>
+                                  <li><i class="fa fa-check"></i> Free Update </li>
+                                  <li><i class="fa fa-check"></i> High Regulation Printing </li>
+                                  <li><i class="fa fa-check"></i> Branding </li>
+                                  <li><i class="fa fa-check"></i> Another Great Features </li>
+                              </ul>
+                          </div>
+                          <div class="pricing-footer">
+                              <a href="#" class="btn-2">get started</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="pricing-item">
+                    <div class="pricing-plan">
+                        <div class="pricing-header">
+                            <h3>premium</h3>
+                            <h2 class="best-value">best value</h2>
+                        </div>
+                        <div class="pricing-price">
+                            <span class="currency">$</span>
+                            <span class="price">199</span>
+                            <span class="period">/monthly</span>
+                        </div>
+                        <div class="pricing-body">
+                            <ul>
+                                <li><i class="fa fa-check"></i> 5 GB BandWidth </li>
+                                <li><i class="fa fa-check"></i> Free Update </li>
+                                <li><i class="fa fa-check"></i> High Regulation Printing </li>
+                                <li><i class="fa fa-check"></i> Branding </li>
+                                <li><i class="fa fa-check"></i> Another Great Features </li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#" class="btn-1">get started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pricing-item">
+                    <div class="pricing-plan">
+                        <div class="pricing-header">
+                            <h3>ultimate</h3>
+                        </div>
+                        <div class="pricing-price">
+                            <span class="currency">$</span>
+                            <span class="price">299</span>
+                            <span class="period">/monthly</span>
+                        </div>
+                        <div class="pricing-body">
+                            <ul>
+                                <li><i class="fa fa-check"></i> 5 GB BandWidth </li>
+                                <li><i class="fa fa-check"></i> Free Update </li>
+                                <li><i class="fa fa-check"></i> High Regulation Printing </li>
+                                <li><i class="fa fa-check"></i> Branding </li>
+                                <li><i class="fa fa-check"></i> Another Great Features </li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#" class="btn-2">get started</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </section> -->
+    <!--===== Pricing Section End ===== -->
+
+    <!--===== Contact Section Start =====-->
+    <section class="contact-section section-padding" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="section-title text-align">
+            <h5 class="sub-title">contact</h5>
+            <h3 class="main-title">get in touch</h3>
+            <ul class="line">
+              <li></li>
+              <li></li>
+              <li></li>
             </ul>
+          </div>
+          <!--===== Section Title =====-->
         </div>
-    </section>
-    <section id="blogs">
-        <h2>Blogs</h2>
-        <div class="blog">
-            <h3>Blog Post Title</h3>
-            <a href="https://bloglink.com">Read more</a>
+        <div class="row">
+          <!--===== contact item start =====-->
+          <div class="contact-item">
+            <div class="contact-item-inner">
+              <i class="fas fa-phone"></i>
+              <span>Phone</span>
+              <p>01609620222</p>
+            </div>
+          </div>
+          <!--===== contact item end =====-->
+          <!--===== contact item start =====-->
+          <div class="contact-item">
+            <div class="contact-item-inner">
+              <i class="fas fa-envelope"></i>
+              <span>Email</span>
+              <p>merinamou3@gmail.com</p>
+            </div>
+          </div>
+          <!--===== contact item end =====-->
+          <!--===== contact item start =====-->
+          <div class="contact-item">
+            <div class="contact-item-inner">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Address</span>
+              <p>Moulovipara, tv boundary road, Khulna</p>
+            </div>
+          </div>
+          <!--===== contact item end =====-->
         </div>
-        <div class="blog">
-            <h3>Blog Post Title</h3>
-            <a href="https://bloglink.com">Read more</a>
+        <!--===== Contact Form =====-->
+        <div class="row">
+          <div class="contact-form">
+            <form action="">
+              <div class="row">
+                <div class="w-50">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="Name"
+                      class="input-control"
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="email"
+                      placeholder="Email"
+                      class="input-control"
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="Subject"
+                      class="input-control"
+                    />
+                  </div>
+                </div>
+                <div class="w-50">
+                  <div class="input-group">
+                    <textarea
+                      name=""
+                      class="input-control"
+                      placeholder="Message"
+                      id=""
+                      cols="30"
+                      rows="10"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="submit-btn">
+                  <button type="submit" class="btn-1">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
+      </div>
     </section>
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form id="contact-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-        <p>Email: youremail@example.com</p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile">Your Profile</a></p>
-        <p>GitHub: <a href="https://github.com/yourusername">Your Username</a></p>
-    </section>
-    <footer>
-        <p>&copy; [Your Name] [Year]</p>
-        <a href="https://github.com/yourusername">GitHub</a>
-        <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>
-        <a href="https://twitter.com/yourusername">Twitter</a>
+    <!--===== Contact Section End =====-->
+    <!--===== Footer Section Start =====-->
+    <footer class="footer">
+      <div class="container">
+        <div class="row justify-content-center">
+          <p class="copyright-text">&copy; 2024 by Merina Rahaman Mou</p>
+        </div>
+      </div>
     </footer>
-    <script src="script.js"></script>
-</body>
+    <!--===== Footer Section End =====-->
+
+    <!--===== Lightbox Start =====-->
+    <div class="lightbox">
+      <div class="lightbox-content">
+        <div class="lightbox-close">&times;</div>
+        <img
+          src="images/portfolio/portfolio-2.jpg"
+          onclick="nextItem()"
+          class="lightbox-img"
+          alt=""
+        />
+        <div class="lightbox-caption">
+          <div class="caption-text"></div>
+          <div class="caption-counter"></div>
+        </div>
+      </div>
+      <div class="lightbox-controls">
+        <div class="prev-item" onclick="prevItem()">
+          <i class="fa fa-angle-left"></i>
+        </div>
+        <div class="next-item" onclick="nextItem()">
+          <i class="fa fa-angle-right"></i>
+        </div>
+      </div>
+    </div>
+    <!--===== Lightbox End =====-->
+
+    <!--===== Main JS =====-->
+    <script src="js/main.js"></script>
+  </body>
 </html>

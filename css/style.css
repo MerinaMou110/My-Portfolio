@@ -6,7 +6,7 @@ html {
     scroll-behavior: smooth;
 }
 :root {
-    --main-color:rgb(11, 0, 167);
+    --main-color:rgb(16, 9, 116);
     --shadow-black-100:0 5px 15px rgba(0,0,0,0.2);
     --black-900:#000;
     --black-400:#646f87;
